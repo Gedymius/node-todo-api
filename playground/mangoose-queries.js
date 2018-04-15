@@ -27,14 +27,14 @@ if (!ObjectID.isValid(id)) {
 	}).catch((e) => console.log(e.message));
 }
 
-  var email = 'nobody@nomail.com';
+/*  var email = 'nobody@nomail.com';
   var user = new User({email});
 
   
   user.save().then((doc) => {
     console.log('New user id: ',doc._id);
   }, (e) => console.log(e));
-
+*/
 var uid = '5ad3d582ea42f525708857d3';
 
 User.findById(uid).then((user) => {
